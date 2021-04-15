@@ -26,6 +26,30 @@ inquirer
     {type: 'input',
     message: 'How do you install?',
     name: 'Installation'},
+     
+    {type: 'input',
+    message: 'How do you use?',
+    name: 'Usage'},
+     
+    {type: 'input',
+    message: 'Who contributed?',
+    name: 'Contributors'},
+     
+    {type: 'input',
+    message: 'How to test?',
+    name: 'Test Instructions'},
+     
+    {type: 'input',
+    message: 'Whats you Github username?',
+    name: 'Github username'},
+     
+    {type: 'input',
+    message: 'What is your email?',
+    name: 'Email'},
+     
+    {type: 'input',
+    message: 'How can someone ask you questions?',
+    name: 'Questions'},
 
     {type: 'checkbox',
     message: 'Choose a license',
