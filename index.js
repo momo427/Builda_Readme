@@ -3,8 +3,8 @@ const fs = require ('fs');
 const inquirer = require('inquirer');
 const util = require('util');
 const generateMarkdown = require('./generatemarkdown');
-// const Choices = require('inquirer/lib/objects/choices');
-// const process = require('process');
+const Choices = require('inquirer/lib/objects/choices');
+const process = require('process');
 
 const writeFileAsync = util.promisify(fs.writeFile);
 // TODO: Create an array of questions for user input
@@ -75,4 +75,6 @@ function init () {
 
 // Function call to initialize app
 init();
+
+
 
