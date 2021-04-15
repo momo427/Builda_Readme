@@ -1,12 +1,16 @@
 // TODO: Include packages needed for this application
 const fs = require ('fs');
 const inquirer = require('inquirer');
-const Choices = require('inquirer/lib/objects/choices');
-const { title } = require('process');
+const util = require('util');
+const generateMarkdown = require('./generatemarkdown');
+// const Choices = require('inquirer/lib/objects/choices');
+// const process = require('process');
 
+const writeFileAsync = util.promisify(fs.writeFile);
 // TODO: Create an array of questions for user input
-inquirer
-.prompt([
+
+const promptUser = () => {
+return inquirer.prompt([
     {type: 'input',
     message: 'What is the title of your project?',
     name:'title'},
@@ -16,28 +20,24 @@ inquirer
     name: 'description'},
 
     {type: 'input',
-    message: 'How to install?',
-    name: 'installation'},
-
-    {type: 'input',
     message: 'Table of Contents',
-    name:'Table of contents'},
+    name:'contents'},
     
     {type: 'input',
     message: 'How do you install?',
-    name: 'Installation'},
+    name: 'Install'},
      
     {type: 'input',
     message: 'How do you use?',
-    name: 'Usage'},
+    name: 'usage'},
      
     {type: 'input',
     message: 'Who contributed?',
-    name: 'Contributors'},
+    name: 'credits'},
      
     {type: 'input',
     message: 'How to test?',
-    name: 'Test Instructions'},
+    name: 'Test'},
      
     {type: 'input',
     message: 'Whats you Github username?',
@@ -57,13 +57,22 @@ inquirer
     choices: ['MIT','GPL v3','AGPL']}
 
 ])
-const questions = [];
+};
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
 
-// TODO: Create a function to initialize app
-function init() {}
+// // TODO: Create a function to write README file
+// function writeToFile(fileName, answers) {}
+
+
+// // TODO: Create a function to initialize app
+function init () {
+    promptUser()
+      .then((answers) => writeFileAsync('Generated-README.md', generateMarkdown(answers)))
+      .then(() => console.log('Successfully wrote to README'))
+      .catch((err) => console.error(err));
+  };
+  
 
 // Function call to initialize app
 init();
+
