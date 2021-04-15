@@ -30,7 +30,7 @@ inquirer
     {type: 'checkbox',
     message: 'Choose a license',
     name: 'license',
-    choices: ['MIT', ]}
+    choices: ['MIT','GPL v3','AGPL']}
 
 ])
 const questions = [];
