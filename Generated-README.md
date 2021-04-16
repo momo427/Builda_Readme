@@ -1,7 +1,8 @@
-# dgdfg
-  ![badge](https://img.shields.io/badge/license-GPL v3-brightgreen)<br />
+# jgj
+
+  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
   ## Desription 
- dfgdfg
+ jhgjhg
   ## Table of contents
      * [Installation](#Installation)
      * [Usage](#Usage)
@@ -9,13 +10,13 @@
      * [License](#License)
      * [Questions](#Questions)
   ## Installation 
- fgdfg
+ hjgj
   ## Usage 
- dgdf
+ hjjh
   ## Credits 
- gdfg
+ hjkhjgb
   ## Licenses 
- GPL v3
+ MIT
   ## Questions
- dgdgfgd
+ jkh
 

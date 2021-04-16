@@ -54,7 +54,7 @@ return inquirer.prompt([
     {type: 'checkbox',
     message: 'Choose a license',
     name: 'license',
-    choices: ['MIT','GPL v3','AGPL']}
+    choices: ['MIT','GPL v3','Apache']}
 
 ])
 };
