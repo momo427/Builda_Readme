@@ -6,6 +6,7 @@ const generateMarkdown = require('./generatemarkdown');
 const Choices = require('inquirer/lib/objects/choices');
 const process = require('process');
 
+// TODO: Create a function to write README file
 const writeFileAsync = util.promisify(fs.writeFile);
 // TODO: Create an array of questions for user input
 
@@ -59,9 +60,6 @@ return inquirer.prompt([
 ])
 };
 
-
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, answers) {}
 
 
 // // TODO: Create a function to initialize app
