@@ -4,7 +4,7 @@
    Using node and javascript I have created a application that takes in a users responses to a prompt and renders the information into a readme format.
    Purpose: You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
 
-   [![Watch the video](https://youtu.be/knZlw26QMyI)]
+   [![Watch the video](<iframe src="https://drive.google.com/file/d/1uS4lkjESoIIllrdkgk79ek-SeYjLl3ya/preview" width="640" height="480"></iframe>)]
 
   ## Table of contents
      * [Installation](#Installation)
