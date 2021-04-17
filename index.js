@@ -42,11 +42,11 @@ return inquirer.prompt([
      
     {type: 'input',
     message: 'Whats you Github username?',
-    name: 'Github username'},
+    name: 'username'},
      
     {type: 'input',
     message: 'What is your email?',
-    name: 'Email'},
+    name: 'email'},
      
     {type: 'input',
     message: 'How can someone ask you questions?',
@@ -55,7 +55,7 @@ return inquirer.prompt([
     {type: 'checkbox',
     message: 'Choose a license',
     name: 'license',
-    choices: ['MIT','GPL v3','Apache']}
+    choices: ['MIT','GPLv3','Apache']}
 
 ])
 };
