@@ -1,8 +1,8 @@
-# hifsdofjsidjf
+# gsfgd
 
-  ![badge](https://img.shields.io/badge/license-GPL v3-brightgreen)<br />
+      
   ## Desription 
- dkfhsdkjfhsdkjf
+ dfhd
   ## Table of contents
      * [Installation](#Installation)
      * [Usage](#Usage)
@@ -10,13 +10,18 @@
      * [License](#License)
      * [Questions](#Questions)
   ## Installation 
- dkhjfhsdfsdf
+ dhdgdg
   ## Usage 
- dkjfshdkjf
+ fdf
   ## Credits 
- skjdfsdhf
+ hdhd
   ## Licenses 
  GPL v3
   ## Questions
- fkjsdhkjdhf
+ hdh
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# License
+ This repository is released under the undefined
+# License
+ This repository is released under the [object Object]
