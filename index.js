@@ -19,10 +19,6 @@ return inquirer.prompt([
     {type: 'input',
     message: 'Give a brief description of your project',
     name: 'description'},
-
-    {type: 'input',
-    message: 'Table of Contents',
-    name:'contents'},
     
     {type: 'input',
     message: 'How do you install?',
