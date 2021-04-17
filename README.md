@@ -6,6 +6,8 @@
 
   
    [![Video](https://gifs.com/gif/buildareadme-r8yA86)](https://j.gifs.com/r8yA86.gif)
+   
+   [![Readmevideo](https://www.youtube.com/watch?v=knZlw26QMyI)](https://www.youtube.com/watch?v=knZlw26QMyI)
 
   ## Table of contents
      * [Installation](#Installation)
