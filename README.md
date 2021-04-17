@@ -5,7 +5,7 @@
    Purpose: You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
 
   
-   [![Video](https://gifs.com/gif/readme-generator-JyG3qo?muted=false)](https://j.gifs.com/JyG3qo.gif)
+   [![Video](https://gifs.com/gif/buildareadme-r8yA86)](https://j.gifs.com/r8yA86.gif)
 
   ## Table of contents
      * [Installation](#Installation)
